@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9BAF1E1A-CAE5-4C12-BB6B-78ACFCC8C4B2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cosmetics_Project</RootNamespace>
+    <AssemblyName>Cosmetics_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>C:\Users\Admin\Desktop\Generate Invoice PDF in Shopping Website\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About_us.aspx" />
+    <Content Include="AddtocartLakme.aspx" />
+    <Content Include="AddtocartLoreal.aspx" />
+    <Content Include="Addtocartmaybelline.aspx" />
+    <Content Include="Contact_Us.aspx" />
+    <Content Include="Credit_Debit.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\140709loreal.jpg" />
+    <Content Include="images\19299539-makeup-brush-and-cosmetics-on-a-white-background-isolated-with-clipping-path[1].jpg" />
+    <Content Include="images\4510814_orig.jpg" />
+    <Content Include="images\5289173-background-hd.jpg" />
+    <Content Include="images\7c703965-0688-478c-b47f-d68bebb9c9c5.jpg" />
+    <Content Include="images\a280480.jpg" />
+    <Content Include="images\about us.jpg" />
+    <Content Include="images\Abstract-flower-background-HD-picture-02.jpg" />
+    <Content Include="images\addtocart.jpg" />
+    <Content Include="images\Background-Design-Images-36-Cool-Wallpapers-HD-1024x768.jpg" />
+    <Content Include="images\beauty-info-logo.jpg" />
+    <Content Include="images\BeautyCosmeticsLogo.jpg" />
+    <Content Include="images\beautyzone.jpg" />
+    <Content Include="images\ColossalKajalSuperBlack.jpg" />
+    <Content Include="images\contact us.jpg" />
+    <Content Include="images\Contact-Us-Icon.jpg" />
+    <Content Include="images\crop.jpg" />
+    <Content Include="images\crop2.jpg" />
+    <Content Include="images\crop3.jpg" />
+    <Content Include="images\cropimage9.jpg" />
+    <Content Include="images\CROPIMAGES.jpg" />
+    <Content Include="images\Desktop-Wallpaper-1.jpg" />
+    <Content Include="images\eyelinearloreal.png" />
+    <Content Include="images\flat-25-off-on-lakme-skin-care-products-1466148202.jpg" />
+    <Content Include="images\glamorous-make-up-background-vector-2190174%281%29.jpg" />
+    <Content Include="images\HCS_111-800x800.jpg" />
+    <Content Include="images\Lakme-Banner-new_tcm1255-515196.png" />
+    <Content Include="images\lakmeeye.jpg" />
+    <Content Include="images\lakmefou.jpg" />
+    <Content Include="images\lakmekajal.jpg" />
+    <Content Include="images\lakmelip.jpg" />
+    <Content Include="images\lakmemas.jpg" />
+    <Content Include="images\lakmepow.jpg" />
+    <Content Include="images\lasting-drama-gel-eyeliner.jpg" />
+    <Content Include="images\login-gif-images-6.gif" />
+    <Content Include="images\Loreal-Makeup.png" />
+    <Content Include="images\loreal.png" />
+    <Content Include="images\loreal1.png" />
+    <Content Include="images\lorealfoundation.jpg" />
+    <Content Include="images\lorealkajal.jpg" />
+    <Content Include="images\loreallipstick.jpg" />
+    <Content Include="images\lorealmascra.jpg" />
+    <Content Include="images\lorealpowder.jpg" />
+    <Content Include="images\maxresdefault.jpg" />
+    <Content Include="images\MaybellineHyperCurlVolumeMascara.jpg" />
+    <Content Include="images\MaybellineColorSensationalLipstick.jpg" />
+    <Content Include="images\MAYBLLINEFOUNDATION.jpg" />
+    <Content Include="images\mpowder.jpg" />
+    <Content Include="images\nykaa-2.png" />
+    <Content Include="images\TempBanner.jpg" />
+    <Content Include="images\template_cg_440x300.jpg" />
+    <Content Include="images\Top-Cosmetic-brands-in-the-World3.jpg" />
+    <Content Include="Lakme.aspx" />
+    <Content Include="Login_form.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Loreal.aspx" />
+    <Content Include="Maybelline.aspx" />
+    <Content Include="Payment.aspx" />
+    <Content Include="PlacedSuccessfully.aspx" />
+    <Content Include="PlaceOrder.aspx" />
+    <Content Include="Registration_form1.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About_us.aspx.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About_us.aspx.designer.cs">
+      <DependentUpon>About_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddtocartLakme.aspx.cs">
+      <DependentUpon>AddtocartLakme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddtocartLakme.aspx.designer.cs">
+      <DependentUpon>AddtocartLakme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddtocartLoreal.aspx.cs">
+      <DependentUpon>AddtocartLoreal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddtocartLoreal.aspx.designer.cs">
+      <DependentUpon>AddtocartLoreal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Addtocartmaybelline.aspx.cs">
+      <DependentUpon>Addtocartmaybelline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Addtocartmaybelline.aspx.designer.cs">
+      <DependentUpon>Addtocartmaybelline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_Us.aspx.cs">
+      <DependentUpon>Contact_Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact_Us.aspx.designer.cs">
+      <DependentUpon>Contact_Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Credit_Debit.aspx.cs">
+      <DependentUpon>Credit_Debit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Credit_Debit.aspx.designer.cs">
+      <DependentUpon>Credit_Debit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lakme.aspx.cs">
+      <DependentUpon>Lakme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lakme.aspx.designer.cs">
+      <DependentUpon>Lakme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login_form.aspx.cs">
+      <DependentUpon>Login_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login_form.aspx.designer.cs">
+      <DependentUpon>Login_form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loreal.aspx.cs">
+      <DependentUpon>Loreal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loreal.aspx.designer.cs">
+      <DependentUpon>Loreal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maybelline.aspx.cs">
+      <DependentUpon>Maybelline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maybelline.aspx.designer.cs">
+      <DependentUpon>Maybelline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlacedSuccessfully.aspx.cs">
+      <DependentUpon>PlacedSuccessfully.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlacedSuccessfully.aspx.designer.cs">
+      <DependentUpon>PlacedSuccessfully.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceOrder.aspx.cs">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlaceOrder.aspx.designer.cs">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration_form1.aspx.cs">
+      <DependentUpon>Registration_form1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration_form1.aspx.designer.cs">
+      <DependentUpon>Registration_form1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51068</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
